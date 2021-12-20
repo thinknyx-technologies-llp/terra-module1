@@ -15,7 +15,7 @@ provider "aws" {
 
 resource "aws_instance" "app_server" {
   ami           = "ami-036d46416a34a611c"
-  instance_type = "t2.micro"
+  instance_type = "t2.ndfk"
  tags = {
     "Name" = "policytest"
 }
